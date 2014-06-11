@@ -1,0 +1,68 @@
+body{
+	margin:0 auto;
+	padding:0;
+	width:960px;
+
+}
+div{
+	border:1px red solid;
+	margin: 2px;
+
+}
+.logo{
+	float:left;
+}
+.connection{
+	float:right;
+	font-size: 12px;
+}
+
+/*导航栏*/
+.Navigation{
+	clear:both;
+	background:yellow;
+}
+.Navigation ul{
+	list-style:none;
+	margin-top:0px;
+	margin-left:0px;
+	height:15px;
+
+}
+.Navigation ul li{
+	float:left;
+	margin:0 0 0 1px;	
+	padding:5px;
+	background:#005151;
+	width: 130px;
+	text-align:center;
+}
+.Navigation ul li a{
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+
+/*导航栏*/
+
+.slidebarFrame{
+	float:right;
+	width:145px;
+}
+
+/*推荐栏目*/
+.spatial{
+	clear:both;
+	background-color:gray;
+}
+.contentFrame{
+	float:left;	
+	width:800px;
+}
+.content{
+	width:380px;
+	float:left;
+}
+.footer{
+	clear:both;
+}
