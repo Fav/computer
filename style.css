@@ -20,27 +20,29 @@ div{
 /*导航栏*/
 .Navigation{
 	clear:both;
-	background:yellow;
+	height:19px;
 }
 .Navigation ul{
 	list-style:none;
 	margin-top:0px;
 	margin-left:0px;
 	height:15px;
-
+	padding:0px;
 }
 .Navigation ul li{
 	float:left;
 	margin:0 0 0 1px;	
-	padding:5px;
+	padding:0px;
 	background:#005151;
-	width: 130px;
+	width: 135px;
 	text-align:center;
 }
 .Navigation ul li a{
 	display:block;
 	color:white;
 	text-decoration:none;
+	padding:7px;
+	font-size: 14px;
 }
 
 /*导航栏*/
